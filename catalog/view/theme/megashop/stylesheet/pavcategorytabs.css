@@ -1,0 +1,169 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/*
+ * LAYOUT VARIABLES
+ */
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/*inline-block
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/* line 8, ../development/scss/pavcategorytabs.scss */
+.module-desc {
+  display: none;
+}
+
+/* line 11, ../development/scss/pavcategorytabs.scss */
+.nav.right {
+  float: right;
+}
+/* line 324, ../development/scss/mixins/_app.scss */
+.rtl .nav.right {
+  float: left;
+}
+
+/* line 14, ../development/scss/pavcategorytabs.scss */
+.pav-product-tab {
+  background: white;
+}
+/* line 15, ../development/scss/pavcategorytabs.scss */
+.pav-product-tab ul {
+  padding: 0;
+}
+/* line 17, ../development/scss/pavcategorytabs.scss */
+.pav-product-tab ul li > a {
+  padding: 14px 15px 10px;
+}
+/* line 22, ../development/scss/pavcategorytabs.scss */
+.pav-product-tab .nav-header {
+  font-size: 18px;
+  font-family: "Shruti", sans-serif;
+}
+/* line 27, ../development/scss/pavcategorytabs.scss */
+.pav-product-tab .tab-header {
+  display: block;
+}
+/* line 30, ../development/scss/pavcategorytabs.scss */
+.pav-product-tab .tab-content {
+  padding: 0;
+  position: relative;
+}
+/* line 34, ../development/scss/pavcategorytabs.scss */
+.pav-product-tab .products-row {
+  border: none;
+}
+
+/* line 40, ../development/scss/pavcategorytabs.scss */
+.box-content:hover .carousel-control {
+  opacity: 1;
+}
+
+/* line 44, ../development/scss/pavcategorytabs.scss */
+.out-variant {
+  display: none;
+}
+
+/* line 48, ../development/scss/pavcategorytabs.scss */
+.tabs-left > .in-variant {
+  display: none;
+}
+/* line 51, ../development/scss/pavcategorytabs.scss */
+.tabs-left > .out-variant {
+  display: block;
+}
+/* line 55, ../development/scss/pavcategorytabs.scss */
+.tabs-left > .tab-heading, .tabs-left > ul {
+  display: table-cell;
+}
+/* line 58, ../development/scss/pavcategorytabs.scss */
+.tabs-left > .tab-heading.nav-stacked > li > a, .tabs-left > ul.nav-stacked > li > a {
+  padding: 10px 32px 10px 0px;
+}
+/* line 348, ../development/scss/mixins/_app.scss */
+.rtl .tabs-left > .tab-heading.nav-stacked > li > a, .rtl .tabs-left > ul.nav-stacked > li > a {
+  padding: 10px 0px 10px 32px;
+}
+/* line 61, ../development/scss/pavcategorytabs.scss */
+.tabs-left > .tab-heading.nav-stacked > li.active:after, .tabs-left > ul.nav-stacked > li.active:after {
+  right: 0;
+}
+/* line 430, ../development/scss/mixins/_app.scss */
+.rtl .tabs-left > .tab-heading.nav-stacked > li.active:after, .rtl .tabs-left > ul.nav-stacked > li.active:after {
+  left: 0;
+  right: auto;
+}
+/* line 66, ../development/scss/pavcategorytabs.scss */
+.tabs-left > .tab-content {
+  display: table-cell;
+  width: 100%;
+  padding-left: 18px;
+  overflow: hidden;
+  min-height: 100px;
+}
+/* line 335, ../development/scss/mixins/_app.scss */
+.rtl .tabs-left > .tab-content {
+  padding-right: 18px;
+  padding-left: inherit;
+}
+/* line 72, ../development/scss/pavcategorytabs.scss */
+.tabs-left > .tab-content:hover {
+  overflow: hidden;
+}
+
+/* line 78, ../development/scss/pavcategorytabs.scss */
+.tabs-right > ul {
+  float: right;
+}
+/* line 324, ../development/scss/mixins/_app.scss */
+.rtl .tabs-right > ul {
+  float: left;
+}
+/* line 81, ../development/scss/pavcategorytabs.scss */
+.tabs-right > ul.nav-stacked > li > a {
+  padding: 10px 0px 10px 32px;
+}
+/* line 348, ../development/scss/mixins/_app.scss */
+.rtl .tabs-right > ul.nav-stacked > li > a {
+  padding: 10px 32px 10px 0px;
+}
+/* line 84, ../development/scss/pavcategorytabs.scss */
+.tabs-right > ul.nav-stacked > li.active:after {
+  left: 0;
+}
+/* line 423, ../development/scss/mixins/_app.scss */
+.rtl .tabs-right > ul.nav-stacked > li.active:after {
+  right: 0;
+  left: auto;
+}
+/* line 89, ../development/scss/pavcategorytabs.scss */
+.tabs-right > .tab-content {
+  border-right: 1px solid #e5e5e5;
+  padding-right: 18px;
+  overflow: hidden;
+}
+/* line 335, ../development/scss/mixins/_app.scss */
+.rtl .tabs-right > .tab-content {
+  border-left: 1px solid #e5e5e5;
+  border-right: inherit;
+}
+/* line 335, ../development/scss/mixins/_app.scss */
+.rtl .tabs-right > .tab-content {
+  padding-left: 18px;
+  padding-right: inherit;
+}
+/* line 93, ../development/scss/pavcategorytabs.scss */
+.tabs-right > .tab-content:hover {
+  overflow: hidden;
+}

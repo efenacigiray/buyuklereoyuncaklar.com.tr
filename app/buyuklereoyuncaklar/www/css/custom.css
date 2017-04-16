@@ -1,0 +1,15 @@
+.inner-logo {
+	width: 110px;
+}
+
+#category-list li {
+	width: 50%;
+}
+
+#category-list li img {
+	width: 90%;
+}
+
+ul.shop_items li .shop_item_details h4 {
+	width: 85%;
+}

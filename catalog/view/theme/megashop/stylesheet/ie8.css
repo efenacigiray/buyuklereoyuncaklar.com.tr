@@ -1,0 +1,13 @@
+.product-label span:before {
+	content: none;
+}
+.product-label.product-label-special span, .product-label.sale-box span {
+	background-image: url("../image/bg_sale.png");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position-x: 0%;
+	background-position-y: 6px;
+	background-color: transparent;
+	width: 45px;
+	height: 46px;
+}

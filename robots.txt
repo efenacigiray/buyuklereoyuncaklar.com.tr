@@ -1,0 +1,10 @@
+user-agent: *
+Crawl-delay: 4.5
+Disallow: /*&limit
+Disallow: /*&sort
+Disallow: /*?route=checkout/
+Disallow: /*?route=account/
+Disallow: /*?route=product/search
+Disallow: /*?route=affiliate/
+
+Sitemap: http://www.buyuklereoyuncaklar.com.tr/index.php?route=feed/google_sitemap

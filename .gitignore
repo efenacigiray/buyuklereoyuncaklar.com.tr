@@ -1,0 +1,5 @@
+config.php
+admin/config.php
+system/storage/
+system/cache/
+zohoverify/

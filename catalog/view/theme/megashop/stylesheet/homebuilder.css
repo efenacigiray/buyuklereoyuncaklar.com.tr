@@ -1,0 +1,345 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/*
+ * LAYOUT VARIABLES
+ */
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/*inline-block
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/* line 9, ../development/scss/homebuilder.scss */
+.pav-parallax {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  position: relative;
+}
+
+/* line 15, ../development/scss/homebuilder.scss */
+.pav-parallax:before {
+  background: url(admin/images/pattern.png);
+  content: "";
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+  opacity: 0.8;
+}
+
+/**
+ * Suffix classes for make owner style for row and column. this will load automatic in setting form.
+ * format: .pav-col.YOUR_SUFFIX_CLASS , .pav-row.YOUR_SUFFIX_CLASS;
+ */
+/* widget load prestashop module **/
+/* line 32, ../development/scss/homebuilder.scss */
+.widget-inner > [class*="col-"] {
+  width: 100%!important;
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
+
+/* column style */
+/* line 38, ../development/scss/homebuilder.scss */
+.pav-col.default {
+  border-color: #268bb9;
+}
+/* line 262, ../development/scss/mixins/_app.scss */
+.pav-col.default .box-heading {
+  color: white;
+  background-color: #268bb9;
+  border-color: #268bb9;
+}
+/* line 266, ../development/scss/mixins/_app.scss */
+.pav-col.default .box-heading + .box-collapse .box-content {
+  border-top-color: #268bb9;
+}
+/* line 271, ../development/scss/mixins/_app.scss */
+.pav-col.default > .box-footer + .box-collapse .box-body {
+  border-bottom-color: #268bb9;
+}
+
+/* line 42, ../development/scss/homebuilder.scss */
+.pav-col.primary {
+  border-color: #3b8bb9;
+}
+/* line 262, ../development/scss/mixins/_app.scss */
+.pav-col.primary .box-heading {
+  color: white;
+  background-color: #3b8bb9;
+  border-color: #3b8bb9;
+}
+/* line 266, ../development/scss/mixins/_app.scss */
+.pav-col.primary .box-heading + .box-collapse .box-content {
+  border-top-color: #3b8bb9;
+}
+/* line 271, ../development/scss/mixins/_app.scss */
+.pav-col.primary > .box-footer + .box-collapse .box-body {
+  border-bottom-color: #3b8bb9;
+}
+
+/* line 46, ../development/scss/homebuilder.scss */
+.pav-col.success {
+  border-color: #d6e9c6;
+}
+/* line 262, ../development/scss/mixins/_app.scss */
+.pav-col.success .box-heading {
+  color: white;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+/* line 266, ../development/scss/mixins/_app.scss */
+.pav-col.success .box-heading + .box-collapse .box-content {
+  border-top-color: #d6e9c6;
+}
+/* line 271, ../development/scss/mixins/_app.scss */
+.pav-col.success > .box-footer + .box-collapse .box-body {
+  border-bottom-color: #d6e9c6;
+}
+
+/* line 50, ../development/scss/homebuilder.scss */
+.pav-col.info {
+  border-color: #30b1c5;
+}
+/* line 262, ../development/scss/mixins/_app.scss */
+.pav-col.info .box-heading {
+  color: white;
+  background-color: #46a8d2;
+  border-color: #30b1c5;
+}
+/* line 266, ../development/scss/mixins/_app.scss */
+.pav-col.info .box-heading + .box-collapse .box-content {
+  border-top-color: #30b1c5;
+}
+/* line 271, ../development/scss/mixins/_app.scss */
+.pav-col.info > .box-footer + .box-collapse .box-body {
+  border-bottom-color: #30b1c5;
+}
+
+/* line 54, ../development/scss/homebuilder.scss */
+.pav-col.warning {
+  border-color: #e57d06;
+}
+/* line 262, ../development/scss/mixins/_app.scss */
+.pav-col.warning .box-heading {
+  color: white;
+  background-color: #f9b20b;
+  border-color: #e57d06;
+}
+/* line 266, ../development/scss/mixins/_app.scss */
+.pav-col.warning .box-heading + .box-collapse .box-content {
+  border-top-color: #e57d06;
+}
+/* line 271, ../development/scss/mixins/_app.scss */
+.pav-col.warning > .box-footer + .box-collapse .box-body {
+  border-bottom-color: #e57d06;
+}
+
+/* line 58, ../development/scss/homebuilder.scss */
+.pav-col.danger {
+  border-color: #e62b40;
+}
+/* line 262, ../development/scss/mixins/_app.scss */
+.pav-col.danger .box-heading {
+  color: white;
+  background-color: #e94b42;
+  border-color: #e62b40;
+}
+/* line 266, ../development/scss/mixins/_app.scss */
+.pav-col.danger .box-heading + .box-collapse .box-content {
+  border-top-color: #e62b40;
+}
+/* line 271, ../development/scss/mixins/_app.scss */
+.pav-col.danger > .box-footer + .box-collapse .box-body {
+  border-bottom-color: #e62b40;
+}
+
+/* line 61, ../development/scss/homebuilder.scss */
+.pav-col-purple {
+  border-color: none;
+}
+/* line 262, ../development/scss/mixins/_app.scss */
+.pav-col-purple .box-heading {
+  color: white;
+  background-color: #833666;
+  border-color: none;
+}
+/* line 266, ../development/scss/mixins/_app.scss */
+.pav-col-purple .box-heading + .box-collapse .box-content {
+  border-top-color: none;
+}
+/* line 271, ../development/scss/mixins/_app.scss */
+.pav-col-purple > .box-footer + .box-collapse .box-body {
+  border-bottom-color: none;
+}
+
+/* line 64, ../development/scss/homebuilder.scss */
+.pav-col-pink {
+  border-color: none;
+}
+/* line 262, ../development/scss/mixins/_app.scss */
+.pav-col-pink .box-heading {
+  color: white;
+  background-color: #f7619a;
+  border-color: none;
+}
+/* line 266, ../development/scss/mixins/_app.scss */
+.pav-col-pink .box-heading + .box-collapse .box-content {
+  border-top-color: none;
+}
+/* line 271, ../development/scss/mixins/_app.scss */
+.pav-col-pink > .box-footer + .box-collapse .box-body {
+  border-bottom-color: none;
+}
+
+/* line 67, ../development/scss/homebuilder.scss */
+.pav-col-bluedark {
+  border-color: none;
+}
+/* line 262, ../development/scss/mixins/_app.scss */
+.pav-col-bluedark .box-heading {
+  color: white;
+  background-color: #225970;
+  border-color: none;
+}
+/* line 266, ../development/scss/mixins/_app.scss */
+.pav-col-bluedark .box-heading + .box-collapse .box-content {
+  border-top-color: none;
+}
+/* line 271, ../development/scss/mixins/_app.scss */
+.pav-col-bluedark > .box-footer + .box-collapse .box-body {
+  border-bottom-color: none;
+}
+
+/* line 70, ../development/scss/homebuilder.scss */
+.pav-col-blue {
+  border-color: none;
+}
+/* line 262, ../development/scss/mixins/_app.scss */
+.pav-col-blue .box-heading {
+  color: white;
+  background-color: #268bb9;
+  border-color: none;
+}
+/* line 266, ../development/scss/mixins/_app.scss */
+.pav-col-blue .box-heading + .box-collapse .box-content {
+  border-top-color: none;
+}
+/* line 271, ../development/scss/mixins/_app.scss */
+.pav-col-blue > .box-footer + .box-collapse .box-body {
+  border-bottom-color: none;
+}
+
+/* line 73, ../development/scss/homebuilder.scss */
+.pav-col-aqua {
+  border-color: none;
+}
+/* line 262, ../development/scss/mixins/_app.scss */
+.pav-col-aqua .box-heading {
+  color: white;
+  background-color: #3db4bc;
+  border-color: none;
+}
+/* line 266, ../development/scss/mixins/_app.scss */
+.pav-col-aqua .box-heading + .box-collapse .box-content {
+  border-top-color: none;
+}
+/* line 271, ../development/scss/mixins/_app.scss */
+.pav-col-aqua > .box-footer + .box-collapse .box-body {
+  border-bottom-color: none;
+}
+
+/* line 76, ../development/scss/homebuilder.scss */
+.pav-col-tundora {
+  border-color: none;
+}
+/* line 262, ../development/scss/mixins/_app.scss */
+.pav-col-tundora .box-heading {
+  color: white;
+  background-color: #76939e;
+  border-color: none;
+}
+/* line 266, ../development/scss/mixins/_app.scss */
+.pav-col-tundora .box-heading + .box-collapse .box-content {
+  border-top-color: none;
+}
+/* line 271, ../development/scss/mixins/_app.scss */
+.pav-col-tundora > .box-footer + .box-collapse .box-body {
+  border-bottom-color: none;
+}
+
+/* line 79, ../development/scss/homebuilder.scss */
+.pav-col-brown {
+  border-color: none;
+}
+/* line 262, ../development/scss/mixins/_app.scss */
+.pav-col-brown .box-heading {
+  color: white;
+  background-color: #654941;
+  border-color: none;
+}
+/* line 266, ../development/scss/mixins/_app.scss */
+.pav-col-brown .box-heading + .box-collapse .box-content {
+  border-top-color: none;
+}
+/* line 271, ../development/scss/mixins/_app.scss */
+.pav-col-brown > .box-footer + .box-collapse .box-body {
+  border-bottom-color: none;
+}
+
+/* row style */
+/**
+ * Widget Styles
+ */
+/* Separator style */
+/* line 138, ../development/scss/homebuilder.scss */
+.widget-separator .w_text_separator {
+  float: left;
+  height: 2px;
+  position: relative;
+  width: 100%;
+  background-color: #797C85;
+}
+
+/* line 145, ../development/scss/homebuilder.scss */
+.widget-separator .w_text_separator .text_separ {
+  position: absolute;
+  padding: 0 1px;
+  width: 50px;
+  top: -9px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ffffff;
+  font-size: 15px;
+  font-family: monospace;
+}
+
+/* line 156, ../development/scss/homebuilder.scss */
+.widget-separator .separator_align_center {
+  left: 0;
+  right: 0;
+}
+
+/* line 160, ../development/scss/homebuilder.scss */
+.widget-separator .separator_align_left {
+  left: 0;
+}
+
+/* line 163, ../development/scss/homebuilder.scss */
+.widget-separator .separator_align_right {
+  right: 0;
+}

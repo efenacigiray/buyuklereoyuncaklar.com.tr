@@ -1,0 +1,122 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/*
+ * LAYOUT VARIABLES
+ */
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/*inline-block
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/* line 10, ../development/scss/pavnewsletter.scss */
+.pav-newsletter {
+  text-align: center;
+  padding: 30px 0 0;
+}
+/* line 13, ../development/scss/pavnewsletter.scss */
+.pav-newsletter .box-heading {
+  display: none;
+}
+/* line 16, ../development/scss/pavnewsletter.scss */
+.pav-newsletter .email {
+  min-width: 400px;
+  border-radius: 2px;
+  font-size: 14px;
+}
+/* line 21, ../development/scss/pavnewsletter.scss */
+.pav-newsletter .explain {
+  font-size: 15px;
+  color: white;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 40px;
+  font-family: "Kelson";
+  padding: 0 30px;
+}
+/* line 29, ../development/scss/pavnewsletter.scss */
+.pav-newsletter .explain > * {
+  padding: 0;
+  margin: 0;
+}
+/* line 34, ../development/scss/pavnewsletter.scss */
+.pav-newsletter .input-group-addon {
+  padding: 0;
+}
+/* line 37, ../development/scss/pavnewsletter.scss */
+.pav-newsletter .btn-newsletter {
+  background: #268bb9;
+  color: white;
+  z-index: 2;
+  padding: 10px 16px;
+}
+
+/* line 44, ../development/scss/pavnewsletter.scss */
+.formNewLestter {
+  display: inline-block;
+}
+/* line 46, ../development/scss/pavnewsletter.scss */
+.formNewLestter > * {
+  float: left;
+}
+/* line 324, ../development/scss/mixins/_app.scss */
+.rtl .formNewLestter > * {
+  float: right;
+}
+
+@media (max-width: 767px) {
+  /* line 53, ../development/scss/pavnewsletter.scss */
+  .pav-newsletter .explain {
+    display: none;
+  }
+  /* line 56, ../development/scss/pavnewsletter.scss */
+  .pav-newsletter .input-newsletter {
+    padding-left: 30px;
+  }
+  /* line 335, ../development/scss/mixins/_app.scss */
+  .rtl .pav-newsletter .input-newsletter {
+    padding-right: 30px;
+    padding-left: inherit;
+  }
+  /* line 59, ../development/scss/pavnewsletter.scss */
+  .pav-newsletter .email {
+    min-width: 250px;
+  }
+}
+@media (max-width: 480px) {
+  /* line 66, ../development/scss/pavnewsletter.scss */
+  .pav-newsletter .input-newsletter {
+    padding-left: 15px;
+  }
+  /* line 335, ../development/scss/mixins/_app.scss */
+  .rtl .pav-newsletter .input-newsletter {
+    padding-right: 15px;
+    padding-left: inherit;
+  }
+  /* line 69, ../development/scss/pavnewsletter.scss */
+  .pav-newsletter .input-newsletter > * {
+    float: none;
+  }
+  /* line 70, ../development/scss/pavnewsletter.scss */
+  .pav-newsletter .email {
+    min-width: 100px;
+  }
+
+  /* line 74, ../development/scss/pavnewsletter.scss */
+  .social {
+    float: none;
+    border: none;
+    display: inline-block;
+  }
+}

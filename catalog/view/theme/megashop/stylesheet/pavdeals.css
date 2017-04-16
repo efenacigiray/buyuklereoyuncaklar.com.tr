@@ -1,0 +1,235 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/*
+ * LAYOUT VARIABLES
+ */
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/*inline-block
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/* line 8, ../development/scss/pavdeals.scss */
+.productdeals .product-block {
+  border: 1px solid #e5e5e5;
+  position: relative;
+}
+/* line 21, ../development/scss/mixins/_bootstrap.scss */
+.productdeals .product-block:before, .productdeals .product-block:after {
+  content: " ";
+  display: table;
+}
+/* line 25, ../development/scss/mixins/_bootstrap.scss */
+.productdeals .product-block:after {
+  clear: both;
+}
+/* line 13, ../development/scss/pavdeals.scss */
+.productdeals .product-block .name {
+  font-size: 14px;
+  line-height: 20px;
+}
+/* line 16, ../development/scss/pavdeals.scss */
+.productdeals .product-block .name > * {
+  color: #333333;
+}
+/* line 21, ../development/scss/pavdeals.scss */
+.productdeals .product-block .right {
+  position: absolute;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  background: transparent;
+  top: 100%;
+  -webkit-transition: 0.4s all;
+  transition: 0.4s all;
+  box-shadow: none;
+  text-align: center;
+}
+/* line 423, ../development/scss/mixins/_app.scss */
+.rtl .productdeals .product-block .right {
+  right: 0;
+  left: auto;
+}
+/* line 33, ../development/scss/pavdeals.scss */
+.productdeals .product-block:hover .right {
+  top: 80%;
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: 0.4s all;
+  transition: 0.4s all;
+}
+/* line 40, ../development/scss/pavdeals.scss */
+.productdeals .product-block .deal {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-width: 265px;
+}
+/* line 430, ../development/scss/mixins/_app.scss */
+.rtl .productdeals .product-block .deal {
+  left: 0;
+  right: auto;
+}
+/* line 48, ../development/scss/pavdeals.scss */
+.productdeals .image {
+  float: left;
+  width: 50%;
+  border-right: 1px solid #e5e5e5;
+  overflow: hidden;
+}
+/* line 324, ../development/scss/mixins/_app.scss */
+.rtl .productdeals .image {
+  float: right;
+}
+/* line 335, ../development/scss/mixins/_app.scss */
+.rtl .productdeals .image {
+  border-left: 1px solid #e5e5e5;
+  border-right: inherit;
+}
+/* line 54, ../development/scss/pavdeals.scss */
+.productdeals .img-responsive {
+  width: 100%;
+}
+/* line 57, ../development/scss/pavdeals.scss */
+.productdeals .product-meta {
+  float: left;
+  width: 50%;
+  border-left: none;
+  border-top: none;
+  border-bottom: 1px solid #e5e5e5;
+  border-right: none;
+}
+/* line 324, ../development/scss/mixins/_app.scss */
+.rtl .productdeals .product-meta {
+  float: right;
+}
+/* line 65, ../development/scss/pavdeals.scss */
+.productdeals .product-label {
+  background: #2E96A7;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 100%;
+  margin-top: -35px;
+  left: 0%;
+  margin-left: -35px;
+}
+/* line 423, ../development/scss/mixins/_app.scss */
+.rtl .productdeals .product-label {
+  right: 0%;
+  left: auto;
+}
+/* line 335, ../development/scss/mixins/_app.scss */
+.rtl .productdeals .product-label {
+  margin-right: -35px;
+  margin-left: inherit;
+}
+/* line 75, ../development/scss/pavdeals.scss */
+.productdeals .product-label .datas {
+  padding: 15px 0px;
+}
+/* line 78, ../development/scss/pavdeals.scss */
+.productdeals .product-label span {
+  background: none;
+  height: auto;
+  width: auto;
+  line-height: 1.33;
+}
+/* line 84, ../development/scss/pavdeals.scss */
+.productdeals .product-label .saleoff {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* line 91, ../development/scss/pavdeals.scss */
+.deal {
+  display: inline-block;
+  width: 100%;
+}
+/* line 94, ../development/scss/pavdeals.scss */
+.deal ul {
+  padding: 0;
+  display: table;
+  text-align: center;
+  width: 100%;
+}
+/* line 99, ../development/scss/pavdeals.scss */
+.deal ul li {
+  display: table-cell;
+}
+/* line 104, ../development/scss/pavdeals.scss */
+.deal .countdown_num {
+  font-weight: bold;
+  color: black;
+}
+/* line 107, ../development/scss/pavdeals.scss */
+.deal .countdown_num + * {
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* line 113, ../development/scss/pavdeals.scss */
+.deal-collection {
+  bottom: 70px;
+  position: absolute;
+  right: 0;
+  width: 50%;
+}
+/* line 430, ../development/scss/mixins/_app.scss */
+.rtl .deal-collection {
+  left: 0;
+  right: auto;
+}
+/* line 118, ../development/scss/pavdeals.scss */
+.deal-collection .deal-qty-box {
+  padding: 0 15px;
+  font-weight: 300;
+  color: #f8694d;
+  font-style: italic;
+}
+
+@media (max-width: 480px) {
+  /* line 127, ../development/scss/pavdeals.scss */
+  #productdeals .image, #productdeals .product-meta {
+    width: 100%;
+    float: none;
+    border: none;
+  }
+  /* line 133, ../development/scss/pavdeals.scss */
+  #productdeals .product-label-special {
+    display: none;
+  }
+  /* line 136, ../development/scss/pavdeals.scss */
+  #productdeals .product-block .deal {
+    position: relative;
+    display: block;
+    text-align: center;
+    max-width: 480px;
+    right: 0;
+  }
+  /* line 430, ../development/scss/mixins/_app.scss */
+  .rtl #productdeals .product-block .deal {
+    left: 0;
+    right: auto;
+  }
+  /* line 143, ../development/scss/pavdeals.scss */
+  #productdeals .deal-collection {
+    position: relative;
+    bottom: 0;
+    line-height: 30px;
+    padding: 15px 0;
+    width: 100%;
+  }
+}

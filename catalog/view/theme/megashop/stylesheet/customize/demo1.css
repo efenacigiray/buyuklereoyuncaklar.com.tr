@@ -1,0 +1,24 @@
+
+/* customize for body,body #page */ 
+body,body #page { 
+color:#f70505 
+} 
+
+/* customize for a, #page a */ 
+a, #page a { 
+color:#e200e6 
+} 
+
+/* customize for 
+				#footer,#footer .box .box-heading,#footer .box.pavgooglemap .box-heading,#powered				
+			 */ 
+
+				#footer,#footer .box .box-heading,#footer .box.pavgooglemap .box-heading,#powered				
+			 { 
+color:#1613ed 
+} 
+
+/* customize for #footer a */ 
+#footer a { 
+color:#ffee00 
+} 

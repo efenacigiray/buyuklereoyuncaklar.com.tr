@@ -1,0 +1,30 @@
+/*
+* CATEGORY-BANNER STYLE
+*
+*/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/*
+ * LAYOUT VARIABLES
+ */
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/*inline-block
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/* line 11, ../development/scss/pavcategorybanner.scss */
+.col-banner {
+  padding-top: 18px;
+}

@@ -1,0 +1,178 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/*
+ * LAYOUT VARIABLES
+ */
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/*inline-block
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/* line 9, ../development/scss/pavtestimonial.scss */
+.pavtestimonial {
+  color: white;
+}
+/* line 11, ../development/scss/pavtestimonial.scss */
+.pavtestimonial .inner {
+  position: relative;
+}
+/* line 14, ../development/scss/pavtestimonial.scss */
+.pavtestimonial .testimonial-content {
+  height: 150px;
+  overflow: hidden;
+}
+/* line 18, ../development/scss/pavtestimonial.scss */
+.pavtestimonial .item {
+  padding: 30px 0px 0;
+}
+/* line 21, ../development/scss/pavtestimonial.scss */
+.pavtestimonial .description {
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 24px;
+  padding: 0;
+  color: white;
+  margin-right: 20px;
+}
+/* line 335, ../development/scss/mixins/_app.scss */
+.rtl .pavtestimonial .description {
+  margin-left: 20px;
+  margin-right: inherit;
+}
+/* line 30, ../development/scss/pavtestimonial.scss */
+.pavtestimonial .t-avatar {
+  float: left;
+  margin-right: 20px;
+}
+/* line 324, ../development/scss/mixins/_app.scss */
+.rtl .pavtestimonial .t-avatar {
+  float: right;
+}
+/* line 335, ../development/scss/mixins/_app.scss */
+.rtl .pavtestimonial .t-avatar {
+  margin-left: 20px;
+  margin-right: inherit;
+}
+/* line 34, ../development/scss/pavtestimonial.scss */
+.pavtestimonial .testimonial-meta {
+  overflow: hidden;
+}
+/* line 37, ../development/scss/pavtestimonial.scss */
+.pavtestimonial .profile {
+  padding-top: 15px;
+}
+/* line 40, ../development/scss/pavtestimonial.scss */
+.pavtestimonial .colorbox-t {
+  display: none;
+}
+/* line 43, ../development/scss/pavtestimonial.scss */
+.pavtestimonial .carousel-indicators {
+  width: auto;
+  right: 10px;
+  padding: 0;
+  top: 35px;
+  left: 97%;
+  margin-left: 0;
+}
+/* line 430, ../development/scss/mixins/_app.scss */
+.rtl .pavtestimonial .carousel-indicators {
+  left: 10px;
+  right: auto;
+}
+/* line 423, ../development/scss/mixins/_app.scss */
+.rtl .pavtestimonial .carousel-indicators {
+  right: 97%;
+  left: auto;
+}
+/* line 50, ../development/scss/pavtestimonial.scss */
+.pavtestimonial .carousel-indicators .bullet {
+  position: relative;
+  background: none;
+  border: 1px solid #867c64;
+  display: block;
+  margin: 10px;
+  padding: 5px;
+  z-index: 20;
+}
+/* line 58, ../development/scss/pavtestimonial.scss */
+.pavtestimonial .carousel-indicators .bullet.active {
+  background: white;
+}
+/* line 61, ../development/scss/pavtestimonial.scss */
+.pavtestimonial .carousel-indicators .bullet:before {
+  position: absolute;
+  content: "";
+  background: #867c64;
+  width: 1px;
+  height: 11px;
+  top: 10px;
+  right: 5px;
+}
+/* line 70, ../development/scss/pavtestimonial.scss */
+.pavtestimonial .carousel-indicators .bullet:last-child:before {
+  content: none;
+}
+/* line 77, ../development/scss/pavtestimonial.scss */
+.pavtestimonial .carousel-inner > .item {
+  -webkit-transition: 0.6s ease-in-out top;
+  transition: 0.6s ease-in-out top;
+}
+/* line 83, ../development/scss/pavtestimonial.scss */
+.pavtestimonial .carousel-inner > .item > img,
+.pavtestimonial .carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  line-height: 1;
+}
+/* line 91, ../development/scss/pavtestimonial.scss */
+.pavtestimonial .carousel-inner > .active,
+.pavtestimonial .carousel-inner > .next,
+.pavtestimonial .carousel-inner > .prev {
+  display: block;
+}
+/* line 95, ../development/scss/pavtestimonial.scss */
+.pavtestimonial .carousel-inner > .active {
+  top: 0;
+}
+/* line 100, ../development/scss/pavtestimonial.scss */
+.pavtestimonial .carousel-inner > .next,
+.pavtestimonial .carousel-inner > .prev {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+/* line 106, ../development/scss/pavtestimonial.scss */
+.pavtestimonial .carousel-inner > .next {
+  top: -100%;
+}
+/* line 109, ../development/scss/pavtestimonial.scss */
+.pavtestimonial .carousel-inner > .prev {
+  top: 100%;
+}
+/* line 113, ../development/scss/pavtestimonial.scss */
+.pavtestimonial .carousel-inner > .next.left,
+.pavtestimonial .carousel-inner > .prev.right {
+  top: 0;
+}
+/* line 117, ../development/scss/pavtestimonial.scss */
+.pavtestimonial .carousel-inner > .active.left {
+  left: -100%;
+}
+/* line 120, ../development/scss/pavtestimonial.scss */
+.pavtestimonial .carousel-inner > .active.right {
+  left: 100%;
+}
